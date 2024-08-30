@@ -1,7 +1,7 @@
- # 🖥️ Linux
- - DOMAIN-SUFFIX,ubuntu.com
- - DOMAIN-SUFFIX,docker.com
- - DOMAIN-SUFFIX,launchpadcontent.net
- - DOMAIN-SUFFIX,jtvnw.net
- - DOMAIN-SUFFIX,openwrt.org
- - DOMAIN-SUFFIX,www.debian.org
+payload:
+ - 'ubuntu.com'
+ - 'docker.com'
+ - 'launchpadcontent.net'
+ - 'jtvnw.net'
+ - 'openwrt.org'
+ - 'www.debian.org'
