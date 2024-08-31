@@ -7,7 +7,7 @@ payload:
   - '+.sydney.bing.com'
   - '+.openai.com'
   - '+.challenges.cloudflare.com'
-  - '+.chat.openai.com'.cdn.cloudflare.net'
+  - '+.chat.openai.com.cdn.cloudflare.net'
   - '+.openaiapi-site.azureedge.net'
   - '+.bing.com'
   - '+.bard.google.com'
