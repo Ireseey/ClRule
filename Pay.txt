@@ -21,11 +21,11 @@ payload:
   - '+.braintreepayments.com'
   - '+.braintreepayments.info'
   - '+.braintreepayments.org'
-  - '+.braintreepayments.tv
+  - '+.braintreepayments.tv'
   - '+.braintreepaymentsolutions.com'
   - '+.braintreeps.com'
   - '+.briantreepayments.net'
-  - '+.briantreepayments.tv
+  - '+.briantreepayments.tv'
   - '+.buyfast-paysmart.net'
   - '+.card.io'
   - '+.cash2.com'
@@ -79,7 +79,7 @@ payload:
   - '+.paypal-comunidad.com'
   - '+.paypal-corp.com'
   - '+.paypal-database.com'
-  - '+.paypal-database.us
+  - '+.paypal-database.us'
   - '+.paypal-donations.com'
   - '+.paypal-dynamic.com'
   - '+.paypal-engineering.com'
@@ -153,8 +153,8 @@ payload:
   - '+.paypal.ca'
   - '+.paypal.com'
   - '+.paypal.com.cn'
-  - '+.paypal.com.hk
-  - '+.paypal.com.sg
+  - '+.paypal.com.hk'
+  - '+.paypal.com.sg'
   - '+.paypal.hk'
   - '+.paypal.info'
   - '+.paypal.jp'
@@ -180,7 +180,7 @@ payload:
   - '+.paypalhere.info'
   - '+.paypalhere.net'
   - '+.paypalhere.org'
-  - '+.paypalhere.tv
+  - '+.paypalhere.tv'
   - '+.paypali.net'
   - '+.paypalinc.com'
   - '+.paypalindia.com'
@@ -242,6 +242,6 @@ payload:
   - '+.xoom-experience.com'
   - '+.xoom.com'
   - '+.xoom.io'
-  - '+.xoom.net'.cn'
+  - '+.xoom.net.cn'
   - '+.xoom.us'
-  - '+.xoom.com'.com'
+  - '+.xoom.com.com'
