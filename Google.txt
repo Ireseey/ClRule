@@ -1,5 +1,8 @@
 payload:
+  - '+.google.com'
+  - '+.googleapis.com'
   - '+.google.co.uk'
+  - '+.googleapis.co.ck'
   - '+.bard.google.com'
   - '+.2mdn-cn.net'
   - '+.2mdn.net'
