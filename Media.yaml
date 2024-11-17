@@ -10,5 +10,8 @@ payload:
   - '+.subscene.com'
   - '+.addic7ed.com'
   - '+.plex.tv'
+  - '+.emby.media'
+  - '+.jellyfin.org'
+  - '+.kodi.tv'
   - '+.plex.direct
   - '+.pubsub.plex.bz'
