@@ -1,3 +1,7 @@
 payload:
   - '+.metacubex.one'
   - '+.time.apple.com'
+  - '+.github.com'
+  - '+.github.dev'
+  - '+.githubusercontent.com'
+  - '+.githubusercontent.dev'
