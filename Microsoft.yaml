@@ -15,6 +15,7 @@ payload:
   - '+.bing.net'
   - '+.bingapis.com'
   - '+.cloudapp.net'
+  - '+.microsoft.com'
   - '+.microsoftonline.com'
   - '+.s-microsoft.com'
   - '+.cloud.microsoft'
