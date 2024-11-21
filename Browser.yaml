@@ -1,3 +1,6 @@
 payload:
   - '+.mozilla.org'
+  - '+.mozilla.com'
+  - '+.mozilla.net'
   - '+.firefox.com'
+  - '+.getpocket.com'
