@@ -17,6 +17,7 @@ payload:
   - '+.sony.com'
   - '+.sonyentertainmentnetwork.com'
   - '+.steambroadcast.akamaized.net'
+  - '+.steamcontent.com'
   - '+.steamcommunity-a.akamaihd.net'
   - '+.steampipe.akamaized.net'
   - '+.steamstore-a.akamaihd.net'
