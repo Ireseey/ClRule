@@ -1,4 +1,69 @@
 payload:
+  - '+.tmall.com'
+  - '+.tmall.com'
+  - '+.alicdn.com'
+  - '+.alicdn.cn'
+  - '+.taobao.com'
+  - '+.taobao.cn'
+  - '+.jd.com'
+  - '+.jd.cn'
+  - '+.jdpay.com'
+  - '+.jdpay.cn'
+  - '+.360buy.com'
+  - '+.360buy.cn'
+  - '+.appzapp.com'
+  - '+.appzapp.cn'
+  - '+.baidupcs.com'
+  - '+.baidupcs.cn'
+  - '+.bilibili.com'
+  - '+.bilibili.cn'
+  - '+.ccgslb.com'
+  - '+.ccgslb.cn'
+  - '+.chinacache.com'
+  - '+.chinacache.cn'
+  - '+.duobao.com'
+  - '+.duobao.cn'
+  - '+.duolingo.com'
+  - '+.duolingo.cn'
+  - '+.moke.com'
+  - '+.moke.cn'
+  - '+.qhimg.com'
+  - '+.qhimg.cn'
+  - '+.vpimg.com'
+  - '+.vpimg.cn'
+  - '+.aliyun.com'
+  - '+.aliyun.cn'
+  - '+.alimama.com'
+  - '+.alimama.cn'
+  - '+.alipay.com'
+  - '+.alipay.cn'
+  - '+.xiami.com'
+  - '+.xiami.cn'
+  - '+.announce.com'
+  - '+.announce.cn'
+  - '+.torrent.com'
+  - '+.torrent.cn'
+  - '+.tracker.com'
+  - '+.tracker.cn'
+  - '+.beplay.com'
+  - '+.beplay.cn'
+  - '+.officecdn.com'
+  - '+.officecdn.cn'
+  - '+.blzddist1-a.akamaihd.net'
+  - '+.cdn.angruo.com'
+  - '+.client.amplifi.com'
+  - '+.download.jetbrains.com'
+  - '+.file-igamecj.akamaized.net'
+  - '+.ip.istatmenus.app'
+  - '+.sms.imagetasks.com'
+  - '+.router.asus.com'
+  - '+.cdp.cloud.unity3d.com'
+  - '+.images-cn.ssl-images-amazon.com'
+  - '+.kc.kexinshe.com'
+  - '+.origin-a.akamaihd.ne'
+  - '+.steamcommunity-a.akamaihd.net'
+  - '+.www.libvideo.com'
+  - '+.www.yxssp.com'
   - '+.Authy.com'
   - '+.discfan.net'
   - '+.aliapp.org'
@@ -75,9 +140,9 @@ payload:
   - '+.bjmeishu.com'
   - '+.yishuyun.com'
   - '+.yixiaobang.com'
-  - '+.daweilai211.com
-  - DOMAIN,www.shenxianfaka.top
-  - DOMAIN,m.shenxianfaka.top'
+  - '+.daweilai211.com'
+  - '+.www.shenxianfaka.top'
+  - '+.m.shenxianfaka.top'
   - '+.fqnovel.com'
   - '+.qishuta.la'
   - '+.guodongxsw.com'
@@ -90,15 +155,15 @@ payload:
   - '+.yowindow.ru'
   - '+.yowindow.com'
   - '+.yhzb9999.com'
-  - '+.daxiaamu.com
-  - DOMAIN,minipay.gdwxyf.com'
+  - '+.daxiaamu.com'
+  - '+.minipay.gdwxyf.com'
   - '+.gdwxyf.com'
   - '+.51pos.com'
   - '+.sf-pay.com'
   - '+.118pan.com'
   - '+.kejishou.com'
-  - '+.rzurl.com
-  - DOMAIN,ed9a3d8.vvpgwg.xyz'
+  - '+.rzurl.com'
+  - '+.ed9a3d8.vvpgwg.xyz'
   - '+.downpp.com'
   - '+.fly2cn.top'
   - '+.ipshudi.com'
@@ -132,48 +197,26 @@ payload:
   - '+.umva-china.com'
   - '+.tanx.com'
   - '+.vsean.net
-  
-  - PROCESS-NAME,org.localsend.localsend_app
-  - PROCESS-NAME,localsend
-  - PROCESS-NAME,com.eg.android.AlipayGphone
-  #- PROCESS-NAME,
-  '
   - '+.getui.com'
-  - '+.pauyun.gd.cn
-  - DOMAIN,analytics.strava.com'
+  - '+.pauyun.gd.cn'
+  - '+.analytics.strava.com'
   - '+.zhihu.com'
   - '+.tagtic.cn'
   - '+.baidu.com'
   - '+.baidubcr.com'
   - '+.baidupcs.com'
   - '+.baidustatic.com
-  - DOMAIN-KEYWORD,baidu'
+  - '+.baidu.com'
   - '+.jd.com'
   - '+.jdcloud.com'
   - '+.jdpay.com'
   - '+.taobao.com'
-  - '+.taobaocdn.com
-  - DOMAIN-KEYWORD,taobao
-  - DOMAIN-KEYWORD,jd
-  - DOMAIN-KEYWORD,jdpay'
+  - '+.taobaocdn.com'
   - '+.tbcdn.com'
   - '+.tmall.com
-  - DOMAIN-KEYWORD,tmall.com
-  - DOMAIN-KEYWORD,alicdn'
   - '+.kaikeba.com'
   - '+.laomo.me'
   - '+.mpyit.com
-  - DOMAIN-KEYWORD,360buy
-  - DOMAIN-KEYWORD,appzapp
-  - DOMAIN-KEYWORD,baidupcs
-  - DOMAIN-KEYWORD,bilibili
-  - DOMAIN-KEYWORD,ccgslb
-  - DOMAIN-KEYWORD,chinacache
-  - DOMAIN-KEYWORD,duobao
-  - DOMAIN-KEYWORD,duolingo
-  - DOMAIN-KEYWORD,moke
-  - DOMAIN-KEYWORD,qhimg
-  - DOMAIN-KEYWORD,vpimg'
   - '+.360.com'
   - '+.360kuai.com'
   - '+.360safe.com'
@@ -197,10 +240,7 @@ payload:
   - '+.aliyun.com'
   - '+.aliyuncdn.com'
   - '+.aliyuncs.com'
-  - '+.aliyundrive.com
-  - DOMAIN-KEYWORD,aliyun
-  - DOMAIN-KEYWORD,alimama
-  - DOMAIN-KEYWORD,alipay'
+  - '+.aliyundrive.com'
   - '+.amap.com'
   - '+.autonavi.com'
   - '+.dingtalk.com'
@@ -208,7 +248,6 @@ payload:
   - '+.ucweb.com'
   - '+.xiami.com'
   - '+.xiami.net
-  - DOMAIN-KEYWORD,xiami'
   - '+.ykimg.com'
   - '+.youku.com'
   - '+.bdimg.com'
@@ -393,10 +432,7 @@ payload:
   - '+.zimuzu.tv'
   - '+.zmzapi.com'
   - '+.zmzapi.net'
-  - '+.zmzfile.com
-  - DOMAIN-KEYWORD,announce
-  - DOMAIN-KEYWORD,torrent
-  - DOMAIN-KEYWORD,tracker'
+  - '+.zmzfile.com'
   - '+.animebytes.tv'
   - '+.animetorrents.me'
   - '+.awesome-hd.me'
@@ -669,14 +705,7 @@ payload:
   - '+.zhaopin.com'
   - '+.zhimg.com'
   - '+.zhongsou.com'
-  - '+.zhuihd.com 
-  - DOMAIN,blzddist1-a.akamaihd.net
-  - DOMAIN,cdn.angruo.com
-  - DOMAIN,client.amplifi.com
-  - DOMAIN,download.jetbrains.com
-  - DOMAIN,file-igamecj.akamaized.net
-  - DOMAIN,ip.istatmenus.app
-  - DOMAIN,sms.imagetasks.com'
+  - '+.zhuihd.com'
   - '+.10089.cn'
   - '+.12306.cn'
   - '+.17jita.com'
@@ -906,11 +935,8 @@ payload:
   - '+.xhostfire.com'
   - '+.yiche.com'
   - '+.zgslb.net'
-  - '+.zhangle.com
-  - DOMAIN-KEYWORD,beplay
-  - DOMAIN-KEYWORD,officecdn'
-  - '+.dm0.cc
-  - DOMAIN,router.asus.com'
+  - '+.zhangle.com'
+  - '+.dm0.cc'
   - '+.hiwifi.com'
   - '+.leike.cc'
   - '+.miwifi.com'
@@ -928,14 +954,7 @@ payload:
   - '+.settings.crashlytics.com'
   - '+.423down.com'
   - '+.bokecc.com'
-  - '+.chaipip.com
-  - DOMAIN,cdp.cloud.unity3d.com
-  - DOMAIN,images-cn.ssl-images-amazon.com
-  - DOMAIN,kc.kexinshe.com
-  - DOMAIN,origin-a.akamaihd.ne
-  - DOMAIN,steamcommunity-a.akamaihd.net
-  - DOMAIN,www.libvideo.com
-  - DOMAIN,www.yxssp.com'
+  - '+.chaipip.com'
   - '+.0123456789.com'
   - '+.0379home.com'
   - '+.055110.com'
@@ -969,7 +988,7 @@ payload:
   - '+.166.net'
   - '+.16888.com'
   - '+.16rd.com'
-  - '+.178linux.com'
+  - '+.178linux.com's
   - '+.17989.com'
   - '+.17cdn.com'
   - '+.17house.com'
