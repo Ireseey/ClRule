@@ -196,7 +196,7 @@ payload:
   - '+.ampproject.org'
   - '+.umva-china.com'
   - '+.tanx.com'
-  - '+.vsean.net
+  - '+.vsean.net'
   - '+.getui.com'
   - '+.pauyun.gd.cn'
   - '+.analytics.strava.com'
@@ -205,7 +205,7 @@ payload:
   - '+.baidu.com'
   - '+.baidubcr.com'
   - '+.baidupcs.com'
-  - '+.baidustatic.com
+  - '+.baidustatic.com'
   - '+.baidu.com'
   - '+.jd.com'
   - '+.jdcloud.com'
@@ -213,10 +213,10 @@ payload:
   - '+.taobao.com'
   - '+.taobaocdn.com'
   - '+.tbcdn.com'
-  - '+.tmall.com
+  - '+.tmall.com'
   - '+.kaikeba.com'
   - '+.laomo.me'
-  - '+.mpyit.com
+  - '+.mpyit.com'
   - '+.360.com'
   - '+.360kuai.com'
   - '+.360safe.com'
@@ -247,7 +247,7 @@ payload:
   - '+.soku.com'
   - '+.ucweb.com'
   - '+.xiami.com'
-  - '+.xiami.net
+  - '+.xiami.net'
   - '+.ykimg.com'
   - '+.youku.com'
   - '+.bdimg.com'
@@ -988,8 +988,8 @@ payload:
   - '+.166.net'
   - '+.16888.com'
   - '+.16rd.com'
-  - '+.178linux.com's
-  - '+.17989.com'
+  - '+.178linux.com'
+  - ''+.17989.com'
   - '+.17cdn.com'
   - '+.17house.com'
   - '+.17roco.com'
@@ -3852,3 +3852,4 @@ payload:
   - '+.zybang.com'
   - '+.zyh365.com'
   - '+.zzdtec.com'
+  
