@@ -8,3 +8,5 @@ payload:
   - '+.openwrt.org'
   - '+.debian.org'
   - '+.flathub.org'
+  - '+.fedoraproject.org'
+  - '+.fcix.net'
