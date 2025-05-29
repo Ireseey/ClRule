@@ -2,7 +2,6 @@ payload:
   - '+.ubuntu.com'
   - '+.docker.com'
   - '+.docker.io'
-  - '+.deepin.org'
   - '+.launchpadcontent.net'
   - '+.jtvnw.net'
   - '+.openwrt.org'
