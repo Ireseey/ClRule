@@ -7,6 +7,7 @@ payload:
   - '+.githubusercontent.com'
   - '+.githubusercontent.dev'
   - '+.githubassets.com'
+  - '+.greasyfork.org'
   - '+.z-lib.gs'
   - '+.mihomo.party'
   - '+.nodeseek.com'
@@ -30,4 +31,3 @@ payload:
   - '+.xingyungept.cn'
   - '+.mypt.cc'
   - '+.pussytorrents'
-  - '+.greasyfork.org'
