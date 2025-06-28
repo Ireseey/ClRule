@@ -2,6 +2,7 @@ payload:
   - '+.mihoyo.com'
   - '+.wetab.link'
   - '+.cloudflare.com'
+  - '+.cloudflare.dev'
   - '+.ellar.org'
   - '+.umzi.net'
   - '+.cfargotunnel.com'
