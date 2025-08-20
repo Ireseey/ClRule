@@ -1,11 +1,12 @@
 payload:
   - '+.ubuntu.com'
+  - '+.debian.org'
   - '+.docker.com'
   - '+.docker.io'
+  - '+.cloudflarestorage.com'
   - '+.launchpadcontent.net'
   - '+.jtvnw.net'
   - '+.openwrt.org'
-  - '+.debian.org'
   - '+.flathub.org'
   - '+.fedoraproject.org'
   - '+.fcix.net'
