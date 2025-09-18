@@ -3,6 +3,7 @@ payload:
   - '+.argotunnel.com'
   - '+.cloudflareresearch.com'
   - '+.cloudflareaccess.com'
+  - '+.jsdelivr.net'
   - '+.mihoyo.com'
   - '+.ellar.org'
   - '+.umzi.net'
