@@ -3,6 +3,7 @@ payload:
   - '+.debian.org'
   - '+.docker.com'
   - '+.docker.io'
+  - '+.ghcr.io'
   - '+.cloudflarestorage.com'
   - '+.launchpadcontent.net'
   - '+.jtvnw.net'
