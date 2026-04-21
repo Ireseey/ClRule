@@ -42,7 +42,7 @@ payload:
   - '+.idm.api.io.mi.com'
   - '+.interconnectapi.micloud.xiaomi.net'
   - '+.push.apple.com'
-  - '*.n.n.srv.nintendo.net'
+  - '+.n.n.srv.nintendo.net'
   - '+.stun.playstation.net'
   - 'xbox.*.microsoft.com'
   - '+.xboxlive.com'
