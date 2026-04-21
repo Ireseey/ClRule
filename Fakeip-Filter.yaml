@@ -40,6 +40,7 @@ payload:
   - '+.synology.me'
   - '+.market.xiaomi.com'
   - '+.idm.api.io.mi.com'
+  - '+.interconnectapi.micloud.xiaomi.net'
   - '+.push.apple.com'
   - '*.n.n.srv.nintendo.net'
   - '+.stun.playstation.net'
