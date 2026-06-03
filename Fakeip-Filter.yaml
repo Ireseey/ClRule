@@ -1,8 +1,24 @@
 payload:
-  - '+.linuxl.ahmu.xyz'
+  # ==========================================
+  # 1. 局域网、本地设备与常见路由器后台
+  # ==========================================
+  - '+.lan'
+  - '+.local'
+  - '+.localhost'
+  - 'router.asus.com'        # 华硕路由器
+  - 'tplogin.cn'             # TP-Link
+  - 'tendawifi.com'          # 腾达
+  - 'miwifi.com'             # 小米路由器
+  - 'approuter.pt.xiaomi.com'
+  - 'localhost.ptlogin2.qq.com' # QQ本地快捷登录防走代理
+  - 'localhost.sec.qq.com'
+  - '+.linuxl.ahmu.xyz'      # 保留你的自定义域名
+
+  # ==========================================
+  # 2. 网络连通性检查 (Captive Portal)
+  # ==========================================
   - '+.msftconnecttest.com'
   - '+.msftncsi.com'
-  - '+.windowsupdate.com'
   - '+.captive.apple.com'
   - '+.connectivitycheck.gstatic.com'
   - '+.clients3.google.com'
@@ -13,39 +29,87 @@ payload:
   - '+.fedoraproject.org'
   - '+.network-test.debian.org'
   - '+.detectportal.firefox.com'
+  - '+.connect.rom.miui.com' # 小米网络检测
+  - '+.vnet.huawei.com'      # 华为网络检测
+
+  # ==========================================
+  # 3. NTP 时间同步服务器
+  # ==========================================
   - '+.pool.ntp.org'
+  - '+.ntp.org'
   - 'time.*.com'
   - 'time.*.gov'
   - 'time.*.edu.cn'
   - 'time.windows.com'
   - 'time.apple.com'
+  - 'ntp.*.com'
+
+  # ==========================================
+  # 4. DDNS、公网 IP 检测与 DNS 服务
+  # ==========================================
   - '+.api.dnspod.com'
   - '+.alidns.aliyuncs.com'
   - '+.dns.myhuaweicloud.com'
   - '+.duckdns.org'
   - '+.checkip.synology.com'
   - '+.ifconfig.me'
+  - '+.resolver1.opendns.com'
+
+  # ==========================================
+  # 5. P2P、STUN 与 WebRTC
+  # ==========================================
   - '+.stun.*.*'
   - '+.stun.*.*.*'
   - '+.stun.*.*.*.*'
+  - 'stun.*.*'
+
+  # ==========================================
+  # 6. 内网穿透、VPN 与 CDN (ZeroTrust)
+  # ==========================================
   - '+.argotunnel.com'
   - '+.tailscale.com'
   - '+.ts.net'
+  - '+.zerotier.com'         # 新增 ZeroTier
   - '+.cloudflare.com'
-  - '+.argotunnel.com'
   - '+.cloudflareresearch.com'
   - '+.cloudflareaccess.com'
-  - '+.activity.windows.com'
-  - '+.resolver1.opendns.com'
+
+  # ==========================================
+  # 7. 智能家居与 NAS
+  # ==========================================
   - '+.synology.com'
   - '+.synology.me'
   - '+.market.xiaomi.com'
   - '+.idm.api.io.mi.com'
   - '+.interconnectapi.micloud.xiaomi.net'
+
+  # ==========================================
+  # 8. 消息推送服务 (Push)
+  # ==========================================
   - '+.push.apple.com'
+  - '+.aps.apple.com'        # 极重要的苹果底层推送机制
+  - '+.mtalk.google.com'     # 安卓 FCM 推送 (若需要)
+  - '+.alt1-mtalk.google.com'
+
+  # ==========================================
+  # 9. 微软、Windows 与系统激活
+  # ==========================================
+  - '+.windowsupdate.com'
+  - '+.activity.windows.com'
+
+  # ==========================================
+  # 10. 游戏联机匹配与 DRM 防作弊系统
+  # ==========================================
   - '+.n.n.srv.nintendo.net'
   - '+.stun.playstation.net'
   - 'xbox.*.microsoft.com'
   - '+.xboxlive.com'
   - '+.battle.net'
-  - '+.codefusion.technology'
+  - '+.codefusion.technology' # Denuvo 等 DRM 服务
+
+  # ==========================================
+  # 11. BT/PT 下载 Tracker (可选，防直连下载污染)
+  # ==========================================
+  - 'tracker.*.*'
+  - 'tracker.*.*.*'
+  - '+.tracker.opentrackr.org'
