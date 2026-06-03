@@ -1,21 +1,29 @@
 payload:
+  # ======== 媒体服务器软件与追踪 (Media Servers & Tracking) ========
+  - '+.plex.tv'
+  - '+.plex.direct'
+  - '+.pubsub.plex.bz'
+  - '+.emby.media'
+  - '+.embydata.com'
+  - '+.jellyfin.org'
+  - '+.kodi.tv'
+  - '+.trakt.tv'
+
+  # ======== 影视数据库与刮削 (Databases & Scrapers) ========
   - '+.thetvdb.com'
   - '+.themoviedb.org'
+  - '+.tmdb.org'
   - '+.omdbapi.com'
   - '+.fanart.tv'
   - '+.gracenote.com'
   - '+.imdb.com'
   - '+.rottentomatoes.com'
+
+  # ======== 字幕服务 (Subtitles) ========
   - '+.opensubtitles.org'
   - '+.subscene.com'
   - '+.addic7ed.com'
-  - '+.plex.tv'
-  - '+.emby.media'
-  - '+.embydata.com'
-  - '+.jellyfin.org'
-  - '+.kodi.tv'
-  - '+.plex.direct
-  - '+.pubsub.plex.bz'
-  - '+.trakt.tv'
-  - '+.tmdb.org'
+
+  # ======== 动漫与二次元生态 (ACG & Anime) ========
+  # 动漫花园 (Anime Garden)
   - '+.dmhy.org'
