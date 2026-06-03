@@ -24,6 +24,12 @@ payload:
   - '+.subscene.com'
   - '+.addic7ed.com'
 
+  # ======== 其他工具 (Other Tools) ========
+  - '+.symedia.top'
+  - '+.vertex-app.top'
+  - '+.movie-pilot.org'
+  - '+.iyuu.cn'
+
   # ======== 动漫与二次元生态 (ACG & Anime) ========
   # 动漫花园 (Anime Garden)
   - '+.dmhy.org'
