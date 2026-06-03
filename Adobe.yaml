@@ -1,5 +1,6 @@
 payload:
   - '+.adobegenuine.com'
   - '+.adobe.io'
+  - '+.adobe.com'
   - '+.adobe-identity.com'
   - '+.adobestats.io'
