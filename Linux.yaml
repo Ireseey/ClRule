@@ -1,16 +1,48 @@
 payload:
+  # ======== 核心系统与发行版 (OS & Distros) ========
+  - '+.kernel.org'            # Linux 内核官网及源码库
   - '+.ubuntu.com'
+  - '+.canonical.com'         # Ubuntu 母公司
+  - '+.launchpad.net'         # Ubuntu PPA 及源码托管
+  - '+.launchpadcontent.net'
   - '+.debian.org'
+  - '+.fedoraproject.org'
+  - '+.centos.org'
+  - '+.archlinux.org'
+  - '+.alpinelinux.org'
+  - '+.linuxmint.com'
+  - '+.opensuse.org'
+  - '+.suse.com'
+  - '+.openwrt.org'
+
+  # ======== 容器与镜像仓库 (Containers & Registries) ========
   - '+.docker.com'
   - '+.docker.io'
-  - '+.ghcr.io'
-  - '+.cloudflarestorage.com'
-  - '+.launchpadcontent.net'
-  - '+.jtvnw.net'
-  - '+.openwrt.org'
-  - '+.flathub.org'
-  - '+.fedoraproject.org'
-  - '+.fcix.net'
-  - '+.riken.jp'
-  - '+.fastlydns.net'
-  - '+.pkg.dev'
+  - '+.docker.net'
+  - '+.ghcr.io'               # GitHub Container Registry
+  - '+.pkg.dev'               # Google Artifact Registry
+  - '+.quay.io'               # Red Hat Quay 镜像库
+  - '+.k8s.io'                # Kubernetes
+  - '+.kubernetes.io'
+
+  # ======== 软件分发与包管理器 (Package Managers) ========
+  - '+.flathub.org'           # Flatpak 应用商店
+  - '+.snapcraft.io'          # Snap 应用商店
+  - '+.pypi.org'              # Python 扩展包 (常用于 Linux 环境部署)
+  - '+.pythonhosted.org'
+  - '+.npmjs.org'             # Node.js
+  - '+.npmjs.com'
+  - '+.crates.io'             # Rust
+  - '+.rustup.rs'
+  - '+.rubygems.org'          # Ruby
+
+  # ======== 开源镜像站、CDN 及云存储 (Mirrors & Storage) ========
+  - '+.fcix.net'              # FCIX (常用于 Linux 开源镜像分发)
+  - '+.riken.jp'              # 日本理化学研究所 (极常见的开源软件亚洲镜像源)
+  - '+.fastlydns.net'         # Fastly CDN (常被 GitHub 及各大开源项目使用)
+  - '+.cloudflarestorage.com' # Cloudflare 对象存储 (常用于托管开源文件)
+  - '+.nongnu.org'
+  - '+.gnu.org'
+
+  # ======== 补充 / 其他 (Misc) ========
+  - '+.jtvnw.net'             # (保留你的原域名：通常为 Twitch 的视频/图片 CDN，部分工具可能会借用该线路)
