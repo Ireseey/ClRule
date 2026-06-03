@@ -1,6 +1,43 @@
 payload:
+  # ======== Mozilla / Firefox ========
   - '+.mozilla.org'
   - '+.mozilla.com'
   - '+.mozilla.net'
   - '+.firefox.com'
-  - '+.getpocket.com'
+  - '+.getpocket.com'         # Firefox 内置的稍后阅读服务
+  - '+.mozillademos.org'
+  - '+.bugzilla.org'          # Mozilla 错误追踪系统
+
+  # ======== Google Chrome / Chromium ========
+  # 注：Chrome 同步和扩展主要依赖 google.com 和 googleapis.com，通常由 Google 大类规则覆盖
+  - '+.chrome.com'
+  - '+.chromium.org'
+  - '+.chromeexperiments.com'
+
+  # ======== Microsoft Edge ========
+  # 注：Edge 同步和更新主要依赖 microsoft.com 和 live.com，通常由 Microsoft 大类规则覆盖
+  - '+.microsoftedge.com'
+  - '+.microsoftedgeinsider.com' # Edge 预览版计划
+  - '+.msedge.net'               # Edge CDN 及相关服务
+
+  # ======== Brave ========
+  - '+.brave.com'
+  - '+.brave.software'           # Brave 更新和服务
+  - '+.basicattentiontoken.org'  # Brave 奖励机制 (BAT) 相关
+
+  # ======== Opera ========
+  - '+.opera.com'
+  - '+.operacdn.com'             # Opera CDN 服务
+  - '+.opera-api.com'            # Opera 接口服务
+
+  # ======== Vivaldi ========
+  - '+.vivaldi.com'
+  - '+.vivaldi.net'              # Vivaldi 社区与同步服务
+
+  # ======== Arc (The Browser Company) ========
+  - '+.arc.net'
+  - '+.thebrowser.company'
+
+  # ======== DuckDuckGo (浏览器/插件) ========
+  - '+.duckduckgo.com'
+  - '+.duck.com'                 # 隐私邮件转发等辅助服务
