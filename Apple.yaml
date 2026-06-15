@@ -1,0 +1,91 @@
+payload:
+  # Apple 主域（建议补）
+  - '+.apple.com'
+  - '+.apple-cloudkit.com'
+  - '+.cloudkit.apple.com'
+  - '+.icloudusercontent.com'
+
+  # CDN / 资源（补强）
+  - '+.cdn-apple.com'
+  - '+.aaplimg.com'
+  - '+.mzstatic.com'
+
+  # App Store / 媒体
+  - '+.apps.apple.com'
+  - '+.itunes.apple.com'
+  - '+.music.apple.com'
+  - '+.video.apple.com'
+  - '+.applemusic.com'
+  - '+.mzstatic.com'
+
+  # Apple ID / 登录 / 账户
+  - '+.appleid.apple.com'
+  - '+.idmsa.apple.com'
+  - '+.gsa.apple.com'
+
+  # 推送（非常关键）
+  - '+.push.apple.com'
+  - '+.push-apple.com'
+  - '+.aps.apple.com'
+  - '+.courier.push.apple.com'
+
+  # Siri / AI / 语音
+  - '+.siri.apple.com'
+  - '+.voice.apple.com'
+  - '+.assistant.apple.com'
+  - '+.guzzoni.apple.com'
+
+  # 地图（你有 CN，但补全全球）
+  - '+.ls.apple.com'
+  - '+.gspe*.ls.apple.com'
+  - '+.geo.apple.com'
+
+  # 软件更新（补全关键入口）
+  - '+.mesu.apple.com'
+  - '+.swscan.apple.com'
+  - '+.swcdn.apple.com'
+  - '+.swdist.apple.com'
+  - '+.swcatalog.apple.com'
+  - '+.updates.cdn-apple.com'
+
+  # TestFlight / 开发相关
+  - '+.testflight.apple.com'
+  - '+.developer.apple.com'
+
+  # Game Center / iMessage / FaceTime
+  - '+.gc.apple.com'
+  - '+.gamecenter.apple.com'
+  - '+.ess.apple.com'
+
+  # Apple Pay
+  - '+.apple-pay-gateway.apple.com'
+  - '+.applepay.apple.com'
+
+  # 证书 / 验证
+  - '+.ocsp.apple.com'
+  - '+.ocsp2.apple.com'
+  - '+.crl.apple.com'
+  - '+.certs.apple.com'
+  - '+.valid.apple.com'
+
+  # Weather / Stocks（补 API）
+  - '+.weather-data.apple.com'
+  - '+.weatherkit.apple.com'
+  - '+.stocks.apple.com'
+
+  # 企业 / MDM / 配置
+  - '+.configuration.apple.com'
+  - '+.mdmenrollment.apple.com'
+
+  # 设备激活
+  - '+.albert.apple.com'
+  - '+.gs.apple.com'
+
+  # 广告（可选）
+  - '+.iadsdk.apple.com'
+  - '+.iad.apple.com'
+
+  # 通配增强（很关键，避免漏）
+  - '+.ls.apple.com'
+  - '+.itunes-apple.com'
+  - '+.cdn.apple.com'
