@@ -1,0 +1,88 @@
+payload:
+  # iCloud 主域
+  - '+.icloud.com'
+  - '+.icloud.cn'
+  - '+.icloud.com.cn'
+  - '+.icloud.net.cn'
+
+  # iCloud 多国家/地区
+  - '+.icloud.ch'
+  - '+.icloud.de'
+  - '+.icloud.ee'
+  - '+.icloud.fi'
+  - '+.icloud.fr'
+  - '+.icloud.hu'
+  - '+.icloud.ie'
+  - '+.icloud.is'
+  - '+.icloud.jp'
+  - '+.icloud.lv'
+  - '+.icloud.om'
+  - '+.icloud.org'
+  - '+.icloud.pt'
+  - '+.icloud.ro'
+  - '+.icloud.se'
+  - '+.icloud.si'
+  - '+.icloud.sk'
+  - '+.icloud.vn'
+
+  # Apple iCloud 相关服务
+  - '+.me.com'
+  - '+.mac.com'
+
+  # iCloud 子服务（常见）
+  - '+.icloud-content.com'
+  - '+.icloudusercontent.com'
+  - '+.icloudmail.net'
+  - '+.icloudmusic.net'
+  - '+.icloudads.net'
+  - '+.icloudbrowser.net'
+  - '+.icloudsetup.com'
+  - '+.icloud-isupport.com'
+  - '+.icloud-sandbox.com'
+
+  # CDN / 加速节点
+  - '+.www-cdn.icloud.com.akadns.net'
+  - '+.icloud.com.akadns.net'
+  - '+.cdn-icloud.com'
+
+  # 推送 / 同步相关
+  - '+.push.apple.com'
+  - '+.aps.apple.com'
+
+  # Private Relay（建议加）
+  - '+.mask.icloud.com'
+  - '+.mask-h2.icloud.com'
+  - '+.mask-api.icloud.com'
+
+  # Drive / 照片（常见实际请求域）
+  - '+.gateway.icloud.com'
+  - '+.pXX-icloud.com'        # 通配抓取实际节点
+  - '+.icloud-content.com'
+  - '+.photos.icloud.com'
+
+  # Apple 中国区 iCloud
+  - '+.apple-icloud.cn'
+  - '+.appleicloud.cn'
+  - '+.icloud-apple.cn'
+  - '+.icloudapple.cn'
+
+  # 一些已知附属/兼容域（你原有的）
+  - '+.icloudbox.net'
+  - '+.icloudhome.com'
+  - '+.icloudnet.net'
+  - '+.icloudpay.net'
+  - '+.icloudsecure.net'
+  - '+.ios-icloud.com'
+
+  # 拼写/变体（防漏）
+  - '+.icloudo.com'
+  - '+.icloudo.net'
+  - '+.icloudo.de'
+  - '+.icloudos.net'
+  - '+.icloudos.de'
+
+  # 可疑/误拼（保留以防误解析）
+  - '+.icloude.com'
+  - '+.myicloud.net'
+  - '+.mylcloud.net'
+  - '+.wwwicloud.com'
