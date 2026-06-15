@@ -1,0 +1,171 @@
+payload:
+  # ======================
+  # OpenAI (ChatGPT)
+  # ======================
+  - '+.openai.com'
+  - '+.chatgpt.com'
+  - '+.oaistatic.com'
+  - '+.oaiusercontent.com'
+  - '+.openaiapi-site.azureedge.net'
+  - '+.openaicom.imgix.net'
+  - '+.openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net'
+  - '+.openaicomproductionae4b.blob.core.windows.net'
+  - '+.production-openaicom-storage.azureedge.net'
+
+  # 风控
+  - '+.arkoselabs.com'
+  - '+.challenges.cloudflare.com'
+
+  # ======================
+  # Anthropic (Claude)
+  # ======================
+  - '+.anthropic.com'
+  - '+.claude.ai'
+
+  # ======================
+  # Google AI（严格控制版）
+  # ======================
+  - 'ai.google.dev'
+  - 'makersuite.google.com'
+  - 'aistudio.google.com'
+  - 'gemini.google.com'
+  - 'bard.google.com'
+
+  - '+.generativeai.google'
+  - '+.generativelanguage.googleapis.com'
+  - '+.geller-pa.googleapis.com'
+  - '+.proactivebackend-pa.googleapis.com'
+
+  # 内部通信（AI Studio）
+  - 'alkalimakersuite-pa.clients6.google.com'
+  - 'alkalicore-pa.clients6.google.com'
+  - 'webchannel-alkalimakersuite-pa.clients6.google.com'
+
+  # ======================
+  # Microsoft AI (Copilot)
+  # ======================
+  - 'copilot.microsoft.com'
+  - 'sydney.bing.com'
+  - 'edgeservices.bing.com'
+  - 'gateway.bingviz.microsoft.net'
+  - 'gateway.bingviz.microsoftapp.net'
+
+  - '+.bingapis.com'
+  - '+.bingvisualsearch.com'
+
+  # ======================
+  # xAI / Grok
+  # ======================
+  - '+.x.ai'
+  - '+.grok.com'
+  - '+.xai.chronosphere.io'
+
+  # ======================
+  # Perplexity AI（补！很多人漏）
+  # ======================
+  - '+.perplexity.ai'
+  - '+.pplx.ai'
+
+  # ======================
+  # Stability AI（SD、DreamStudio）
+  # ======================
+  - '+.stability.ai'
+  - '+.stablediffusionapi.com'
+
+  # ======================
+  # Midjourney（Discord 依赖，不扩散）
+  # ======================
+  - '+.midjourney.com'
+
+  # ======================
+  # Runway ML（视频生成）
+  # ======================
+  - '+.runwayml.com'
+
+  # ======================
+  # Poe (Quora AI 聚合)
+  # ======================
+  - '+.poe.com'
+
+  # ======================
+  # Character.AI
+  # ======================
+  - '+.character.ai'
+
+  # ======================
+  # HuggingFace（开源模型）
+  # ======================
+  - '+.huggingface.co'
+  - '+.hf.space'
+
+  # ======================
+  # Replicate（模型 API）
+  # ======================
+  - '+.replicate.com'
+
+  # ======================
+  # ElevenLabs（语音 AI）
+  # ======================
+  - '+.elevenlabs.io'
+
+  # ======================
+  # AssemblyAI / Whisper API类
+  # ======================
+  - '+.assemblyai.com'
+
+  # ======================
+  # Cohere（企业 AI）
+  # ======================
+  - '+.cohere.ai'
+
+  # ======================
+  # Mistral AI
+  # ======================
+  - '+.mistral.ai'
+
+  # ======================
+  # Groq（推理平台，很多人漏）
+  # ======================
+  - '+.groq.com'
+
+  # ======================
+  # Together AI
+  # ======================
+  - '+.together.ai'
+
+  # ======================
+  # Fireworks AI
+  # ======================
+  - '+.fireworks.ai'
+
+  # ======================
+  # DeepL（翻译AI）
+  # ======================
+  - '+.deepl.com'
+
+  # ======================
+  # 通用 AI 实时通信
+  # ======================
+  - '+.livekit.cloud'
+
+  # ======================
+  # AI 常用第三方（控制范围）
+  # ======================
+  - '+.statsig.com'
+  - '+.statsigapi.net'
+  - '+.sentry.io'
+  - '+.segment.io'
+
+  # ======================
+  # 精准 CDN（只保AI）
+  # ======================
+  - '+.oaistatic.com'
+  - '+.oaiusercontent.com'
+
+  # ======================
+  # 小众但真实使用
+  # ======================
+  - '+.cursor.sh'          # AI IDE
+  - '+.phind.com'          # AI 搜索
+  - '+.you.com'            # YouChat
+  - '+.writesonic.com'
