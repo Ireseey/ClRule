@@ -1,1 +1,8 @@
-
+payload:
+  # ======================
+  # xAI / Grok
+  # ======================
+  - '+.x.ai'
+  - '+.grok.com'
+  - '+.grokipedia.com'
+  - '+.xai.chronosphere.io'            # 监控/遥测
