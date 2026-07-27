@@ -1,18 +1,20 @@
 payload:
   # ======================
-  # OpenAI (ChatGPT)
+  # OpenAI (ChatGPT / API)
   # ======================
   - '+.openai.com'
   - '+.chatgpt.com'
   - '+.oaistatic.com'
   - '+.oaiusercontent.com'
+  - '+.oaistatsig.com'
+  - 'auth0.openai.com'
+  - 'cdn.openaimerge.com'
   - '+.openaiapi-site.azureedge.net'
   - '+.openaicom.imgix.net'
   - '+.openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net'
   - '+.openaicomproductionae4b.blob.core.windows.net'
   - '+.production-openaicom-storage.azureedge.net'
-
-  # 风控
+  # 风控 / 人机验证
   - '+.arkoselabs.com'
   - '+.challenges.cloudflare.com'
 
@@ -21,37 +23,41 @@ payload:
   # ======================
   - '+.anthropic.com'
   - '+.claude.ai'
+  - '+.claudeusercontent.com'          # 文件/产物托管
 
   # ======================
-  # Google AI（严格控制版）
+  # Google AI（严格精准版）
   # ======================
   - 'ai.google.dev'
-  - 'makersuite.google.com'
   - 'aistudio.google.com'
+  - 'makersuite.google.com'
   - 'gemini.google.com'
   - 'bard.google.com'
-
+  - 'notebooklm.google.com'            # NotebookLM
   - '+.generativeai.google'
   - '+.generativelanguage.googleapis.com'
   - '+.geller-pa.googleapis.com'
   - '+.proactivebackend-pa.googleapis.com'
-
-  # 内部通信（AI Studio）
+  # AI Studio 内部通信（重要）
   - 'alkalimakersuite-pa.clients6.google.com'
   - 'alkalicore-pa.clients6.google.com'
   - 'webchannel-alkalimakersuite-pa.clients6.google.com'
+  - 'jnn-pa.googleapis.com'            # Gemini 相关
+  # DeepMind
+  - '+.deepmind.google'
+  - '+.deepmind.com'
 
   # ======================
-  # Microsoft AI (Copilot)
+  # Microsoft AI (Copilot / Bing)
   # ======================
   - 'copilot.microsoft.com'
   - 'sydney.bing.com'
   - 'edgeservices.bing.com'
   - 'gateway.bingviz.microsoft.net'
   - 'gateway.bingviz.microsoftapp.net'
-
   - '+.bingapis.com'
   - '+.bingvisualsearch.com'
+  - '+.microsoftcopilot.com'
 
   # ======================
   # xAI / Grok
@@ -59,32 +65,52 @@ payload:
   - '+.x.ai'
   - '+.grok.com'
   - '+.grokipedia.com'
-  - '+.xai.chronosphere.io'
+  - '+.xai.chronosphere.io'            # 监控/遥测
 
   # ======================
-  # Perplexity AI（补！很多人漏）
+  # Perplexity AI
   # ======================
   - '+.perplexity.ai'
   - '+.pplx.ai'
+  - '+.perplexity.ai'
 
   # ======================
-  # Stability AI（SD、DreamStudio）
+  # Cursor (AI IDE) - 官方推荐域名
+  # ======================
+  - '+.cursor.sh'
+  - '+.cursor.com'
+  - '+.cursor-cdn.com'
+  - '+.cursorapi.com'
+  - '+.cursorvm.com'
+  - 'authenticate.cursor.sh'
+  - 'authenticator.cursor.sh'
+  - 'api2.cursor.sh'
+  - 'api3.cursor.sh'
+  - 'agent.api5.cursor.sh'
+
+  # ======================
+  # OpenRouter（聚合平台，很多人用）
+  # ======================
+  - '+.openrouter.ai'
+
+  # ======================
+  # Stability AI
   # ======================
   - '+.stability.ai'
   - '+.stablediffusionapi.com'
 
   # ======================
-  # Midjourney（Discord 依赖，不扩散）
+  # Midjourney
   # ======================
   - '+.midjourney.com'
 
   # ======================
-  # Runway ML（视频生成）
+  # Runway ML
   # ======================
   - '+.runwayml.com'
 
   # ======================
-  # Poe (Quora AI 聚合)
+  # Poe
   # ======================
   - '+.poe.com'
 
@@ -94,30 +120,32 @@ payload:
   - '+.character.ai'
 
   # ======================
-  # HuggingFace（开源模型）
+  # Hugging Face
   # ======================
   - '+.huggingface.co'
   - '+.hf.space'
+  - '+.hf.co'
 
   # ======================
-  # Replicate（模型 API）
+  # Replicate
   # ======================
   - '+.replicate.com'
 
   # ======================
-  # ElevenLabs（语音 AI）
+  # ElevenLabs
   # ======================
   - '+.elevenlabs.io'
 
   # ======================
-  # AssemblyAI / Whisper API类
+  # AssemblyAI
   # ======================
   - '+.assemblyai.com'
 
   # ======================
-  # Cohere（企业 AI）
+  # Cohere
   # ======================
   - '+.cohere.ai'
+  - '+.cohere.com'
 
   # ======================
   # Mistral AI
@@ -125,7 +153,7 @@ payload:
   - '+.mistral.ai'
 
   # ======================
-  # Groq（推理平台，很多人漏）
+  # Groq
   # ======================
   - '+.groq.com'
 
@@ -133,6 +161,7 @@ payload:
   # Together AI
   # ======================
   - '+.together.ai'
+  - '+.together.xyz'
 
   # ======================
   # Fireworks AI
@@ -140,33 +169,44 @@ payload:
   - '+.fireworks.ai'
 
   # ======================
-  # DeepL（翻译AI）
+  # DeepL
   # ======================
   - '+.deepl.com'
 
   # ======================
-  # 通用 AI 实时通信
+  # 其他常用 AI 服务
   # ======================
-  - '+.livekit.cloud'
+  - '+.phind.com'
+  - '+.you.com'
+  - '+.writesonic.com'
+  - '+.jasper.ai'
+  - '+.copy.ai'
+  - '+.notion.so'                      # Notion AI（可选，按需保留）
+  - '+.v0.dev'                         # Vercel v0
+  - '+.v0.app'
+  - '+.lovable.dev'                    # Lovable (原GPT Engineer)
+  - '+.bolt.new'
+  - '+.replit.com'                     # Replit Agent（按需）
+  - '+.livekit.cloud'                  # 实时语音通信常用
 
   # ======================
-  # AI 常用第三方（控制范围）
+  # 中文常用 AI（按需启用）
+  # ======================
+  - '+.deepseek.com'
+  - '+.moonshot.cn'                    # Kimi
+  - '+.kimi.moonshot.cn'
+  - '+.siliconflow.cn'
+  - '+.volces.com'                     # 火山引擎
+  - '+.ark.cn-beijing.volces.com'
+  - '+.baichuan-ai.com'
+  - '+.minimax.chat'
+  - '+.xinghuo.xfyun.cn'               # 讯飞星火（按需）
+
+  # ======================
+  # 第三方服务（控制范围，尽量精确）
   # ======================
   - '+.statsig.com'
   - '+.statsigapi.net'
-  - '+.sentry.io'
-  - '+.segment.io'
-
-  # ======================
-  # 精准 CDN（只保AI）
-  # ======================
-  - '+.oaistatic.com'
-  - '+.oaiusercontent.com'
-
-  # ======================
-  # 小众但真实使用
-  # ======================
-  - '+.cursor.sh'          # AI IDE
-  - '+.phind.com'          # AI 搜索
-  - '+.you.com'            # YouChat
-  - '+.writesonic.com'
+  # sentry 和 segment 太通用，建议单独放或谨慎开启
+  # - '+.sentry.io'
+  # - '+.segment.io'
