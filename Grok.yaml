@@ -4,5 +4,6 @@ payload:
   # ======================
   - '+.x.ai'
   - '+.grok.com'
+  - '+.grok.me'
   - '+.grokipedia.com'
   - '+.xai.chronosphere.io'            # 监控/遥测
