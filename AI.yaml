@@ -89,6 +89,12 @@ payload:
   - 'agent.api5.cursor.sh'
 
   # ======================
+  # Meta (Muse / Meta AI)
+  # ======================
+  - '+.muse.ai'
+  - '+.meta.ai'
+
+  # ======================
   # OpenRouter（聚合平台，很多人用）
   # ======================
   - '+.openrouter.ai'
@@ -189,18 +195,69 @@ payload:
   - '+.replit.com'                     # Replit Agent（按需）
   - '+.livekit.cloud'                  # 实时语音通信常用
 
-  # ======================
+# ======================
   # 中文常用 AI（按需启用）
   # ======================
+  # DeepSeek（深度求索）
   - '+.deepseek.com'
-  - '+.moonshot.cn'                    # Kimi
+
+  # Moonshot（月之暗面 / Kimi）
+  - '+.kimi.ai'
+  - '+.moonshot.cn'
   - '+.kimi.moonshot.cn'
-  - '+.siliconflow.cn'
-  - '+.volces.com'                     # 火山引擎
+
+  # ByteDance（字节跳动 / 豆包 / 火山方舟）
+  - '+.doubao.com'
+  - '+.volces.com'
+  - '+.volcengine.com'
   - '+.ark.cn-beijing.volces.com'
-  - '+.baichuan-ai.com'
+
+  # Alibaba（阿里通义千问 / 百炼 API）
+  - '+.qianwen.com'
+  - '+.tongyi.ai'
+  - '+.tongyi.aliyun.com'
+  - '+.dashscope.aliyuncs.com'
+
+  # Zhipu AI（智谱清言 / GLM 开放平台）
+  - '+.zhipuai.cn'
+  - '+.chatglm.cn'
+  - '+.bigmodel.cn'
+
+  # Baidu（百度文心一言 / 百度智能云）
+  - '+.yiyan.baidu.com'
+  - '+.wenxin.baidu.com'
+  - '+.aip.baidubce.com'
+
+  # Tencent（腾讯混元）
+  - '+.hunyuan.tencent.com'
+
+  # MiniMax（海螺 AI / 开放平台）
+  - '+.hailuoai.com'
+  - '+.minimaxi.com'
   - '+.minimax.chat'
-  - '+.xinghuo.xfyun.cn'               # 讯飞星火（按需）
+
+  # StepFun（阶跃星辰 / 跃问）
+  - '+.stepfun.com'
+  - '+.yuewen.cn'
+
+  # 01.AI（零一万物 / 万知）
+  - '+.01.ai'
+  - '+.wanzhi.com'
+  - '+.lingyiwanwu.com'
+
+  # SiliconFlow（硅基流动 API 算力平台）
+  - '+.siliconflow.cn'
+
+  # Baichuan（百川智能）
+  - '+.baichuan-ai.com'
+
+  # iFLYTEK（讯飞星火）
+  - '+.xinghuo.xfyun.cn'
+  - '+.spark-api.com'
+
+  # SenseTime（商汤日日新）
+  - '+.sensenova.cn'
+  - '+.sensetime.com'
 
   # ======================
   # 第三方服务（控制范围，尽量精确）
