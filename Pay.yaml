@@ -97,6 +97,34 @@ payload:
   - '+.paylike.com'
   - '+.simility.com'
 
+  # --- Bybit ---
+  - '+.bybit.com'
+  - '+.bybit.cloud'
+  - '+.bybit.biz'
+  - '+.bybitglobal.com'
+  - '+.bybit-global.com'
+  - '+.bybit.org'
+  - '+.bybit.eu'
+  - '+.bybit.kz'
+  - '+.bycsi.com'
+  - '+.bytick.com'
+  - '+.byapis.com'
+  - '+.bycbe.com'
+  - '+.bymj.io'
+  - '+.byabcde.com'
+  - '+.byapps.net'
+  - '+.byd3c3.com'
+  - '+.bybdc6.com'
+
+  # --- Bitget Wallet (原 BitKeep) ---
+  - '+.web3.bitget.com'
+  - '+.bitkeep.com'
+  - '+.bkcode.vip'
+  - '+.bgwapi.io'
+  - '+.bopenapi.bgwapi.io'
+  - '+.web3.bgw.live'
+  - '+.bitgetwallet.com'
+
   # --- PayPal 系 (原列表整理优化) ---
   - '+.paypal.ca'
   - '+.paypal.com'
