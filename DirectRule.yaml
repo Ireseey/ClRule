@@ -1,8 +1,4 @@
 payload:
-  - '+.cloudflare.com'
-  - '+.argotunnel.com'
-  - '+.cloudflareresearch.com'
-  - '+.cloudflareaccess.com'
   - '+.jsdelivr.net'
   - '+.mihoyo.com'
   - '+.umzi.net'
