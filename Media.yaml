@@ -8,6 +8,17 @@ payload:
   - '+.jellyfin.org'
   - '+.kodi.tv'
   - '+.trakt.tv'
+  
+  # 追踪与列表服务 (Tracking & Lists)
+  - '+.wetrakr.com'          # WeTrakr
+  - '+.simkl.com'            # Simkl 主站 + api.simkl.com
+  - '+.simkl.in'             # data.simkl.in (CDN 数据)
+  - '+.simkl.org'            # docs.simkl.org
+  - '+.mdblist.com'          # MDBList 主站 + api.mdblist.com
+  - '+.letterboxd.com'       # Letterboxd
+  - '+.anilist.co'           # AniList
+  - '+.myanimelist.net'      # MyAnimeList
+  - '+.kitsu.io'             # Kitsu
 
   # ======== 影视数据库与刮削 (Databases & Scrapers) ========
   - '+.thetvdb.com'
